@@ -1,0 +1,46 @@
+@font-face {
+    font-family: popReg;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: popBold;
+    src: url(./fonts/Poppins-Bold.ttf);
+}
+
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: popReg;
+}
+
+.navbar {
+    font-size: 18px;
+    padding: 15px;
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links {
+    list-style-type: none;
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fr-button {
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #F87107;
+}
