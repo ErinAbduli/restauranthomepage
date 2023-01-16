@@ -8,6 +8,11 @@
     src: url(./fonts/Poppins-Bold.ttf);
 }
 
+@font-face {
+    font-family: popExBold;
+    src: url(./fonts/Poppins-ExtraBold.ttf);
+}
+
 
 
 
@@ -43,4 +48,37 @@ body {
     padding: 15px;
     border-radius: 50px;
     background-color: #F87107;
+}
+
+.main-text {
+    padding-top: 20px;
+    font-family: popExBold;
+    font-size: 30px;
+    color: #fff;
+    line-height: 250%;
+}
+
+.main-text h1 {
+    margin-bottom: 20px;
+}
+
+.main-text a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: popReg;
+    font-size: 20px;
+    border: 2px solid #F87107;
+    border-radius: 50px;
+    padding: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.front-page {
+    background-color: #161616;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 20px;
 }
