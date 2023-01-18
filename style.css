@@ -42,6 +42,10 @@ body {
     text-decoration: none;
 }
 
+.links a:hover {
+    color: #d3d3d3;
+}
+
 .links {
     list-style-type: none;
     width: 550px;
@@ -175,4 +179,138 @@ body {
 
 .div6 {
     grid-area: 2 / 3 / 3 / 4;
+}
+
+.other-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.other-products h1 {
+    font-size: 45px;
+    font-family: popExBold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.other-products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 80px;
+    grid-row-gap: 60px;
+}
+
+.other-products-grid div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-products-grid h3 {
+    font-size: 22px;
+    font-family: popBold;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.div7 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div8 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div9 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div10 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div11 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.our-locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.our-locations h1 {
+    font-size: 45px;
+    font-family: popExBold;
+    margin-bottom: 50px;
+}
+
+.our-locations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.our-locations h3 {
+    font-size: 22px;
+    font-family: popBold;
+    color: #333;
+}
+
+.our-locations p {
+    color: #333;
+    font-family: popSemiBold;
+}
+
+.our-locations b {
+    font-family: popBold;
+}
+
+.div12 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div13 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    color: #fff;
+}
+
+.list-inline {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.list-inline a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.list-inline a:hover {
+    color: #d3d3d3;
+}
+
+.a1 {
+    margin-left: 30px;
 }
