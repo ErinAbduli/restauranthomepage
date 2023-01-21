@@ -14,9 +14,9 @@
         <img class="logo" src="./img/logo3.png" width="70px" alt="">
         <nav>
             <ul class="links">
-                <li><a href="">About Us</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Locations</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#locations">Locations</a></li>
                 <li><a href="" class="fr-button">Franchising</a></li>
             </ul>
         </nav>
@@ -24,11 +24,11 @@
     <div class="front-page">
         <div class="main-text">
             <h1>Hot and fresh<br> mussels,<br> in the pot.</h1>
-            <a href="#">Products</a>
+            <a href="#products">Our Products</a>
         </div>
         <img src="./img/mainimage.jpg" width="40%" alt="">
     </div>
-    <div class="about-us">
+    <div class="about-us" id="about-us">
         <div class="bg-image"></div>
         <div class="abus-text">
             <h1 class="abus">About Us?</h1>
@@ -41,7 +41,7 @@
                 recipes, always hot, fresh and cooked specially for you whenever you want.</p>
         </div>
     </div>
-    <div class="mussels-menu">
+    <div class="mussels-menu" id="products">
         <h1>Mussels</h1>
         <div class="mussels-grid">
             <div class="div1">
@@ -71,7 +71,7 @@
         </div>
     </div>
     <div>
-        <img src="./img/musslebowl.jpg" width="100%" alt="">
+        <img class="mussel-bowl" src="./img/musslebowl.jpg" width="100%" alt="">
     </div>
     <div>
         <div class="other-products">
@@ -100,24 +100,26 @@
             </div>
         </div>
     </div>
-    <div class="our-locations">
+    <div class="our-locations" id="locations">
         <h1>Our Locations</h1>
         <div class="our-locations-grid">
             <div class="div12">
                 <img src="./img/store1.png" width="100%" alt="">
-                <h3>The Mussels Corner - NYC</h3>
-                <p><b>Address:</b> 9735 Peninsula Drive
-                    Brooklyn, NY 11208</p>
-                <p><b>Email:</b> info@themusselscorner.com</p>
-                <p><b>Phone No.</b> +1 202 555 0101</p>
+                <h3>The Mussels Corner - LA</h3>
+                <p><b>Address:</b> <a rel="noopener noreferrer" target="_blank"
+                        href="https://www.google.com/maps/place/301+S+La+Brea+Ave,+Inglewood,+CA+90301,+USA/@33.9600804,-118.355193,18z/data=!4m8!1m2!2m1!1s9735+Peninsula+Drive+Brooklyn,+NY+11208!3m4!1s0x80c2b70246d6e9c7:0xa8e65aba912d8fcd!8m2!3d33.9601647!4d-118.3537738">301
+                        S La Brea Ave, Inglewood, CA 90301, USA</a></p>
+                <p><b>Email:</b> <a href="mailto:info@themusselscorner.com">info@themusselscorner.com</a></p>
+                <p><b>Phone No.</b> <a href="tel:+1 202 555 0101">+1 202 555 0101</a>1</p>
             </div>
             <div class="div13">
                 <img src="./img/store2.png" width="100%" alt="">
-                <h3>The Mussels Corner - LA</h3>
-                <p><b>Address:</b> 87 Green Lake Street
-                    Sylmar, CA 91342</p>
-                <p><b>Email:</b> info@themusselscorner.com</p>
-                <p><b>Phone No.</b> +1 202 555 0169</p>
+                <h3>The Mussels Corner - NYC</h3>
+                <p><b>Address:</b> <a rel="noopener noreferrer" target="_blank"
+                        href="https://www.google.com/maps/place/384+Tompkins+Ave,+Brooklyn,+NY+11216,+USA/@40.6840021,-73.9481389,17z/data=!4m8!1m2!2m1!1s9735+Peninsula+Drive+Brooklyn,+NY+11208!3m4!1s0x89c25b8ef4c44da1:0x98c4ec742f1d8a8a!8m2!3d40.6841239!4d-73.9443516">384
+                        Tompkins Ave, Brooklyn, NY 11216, USA</a></p>
+                <p><b>Email:</b> <a href="mailto:info@themusselscorner.com">info@themusselscorner.com</a></p>
+                <p><b>Phone No.</b> <a href="tel:+1 202 555 0169">+1 202 555 0169</a></p>
             </div>
         </div>
     </div>
@@ -125,8 +127,7 @@
         <nav>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="a1"><a href="#">Services</a></li>
-                <li class="a1"><a href="#">About</a></li>
+                <li class="a1"><a href="#about-us">About</a></li>
                 <li class="a1"><a href="#">Terms</a></li>
                 <li class="a1"><a href="#">Privacy Policy</a></li>
             </ul>
