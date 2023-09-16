@@ -1,6 +1,6 @@
 # THE MUSSELS CORNER
 
-Projekt HTML, CSS, SASS(OPCIONAL) nga kursi "PER PROGRAMERA" 
+Projekt HTML, CSS, SASS(OPCIONAL)
 
 Pots and Mussels is the first stop of the street delicacies we established under the name of Seyyarhane. We produce mussels, which we receive live from farms approved by the relevant ministry, in accordance with the Turkish Food Codex and "daily" and ship them to our branches.
 
